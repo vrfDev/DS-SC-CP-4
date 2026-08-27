@@ -69,7 +69,7 @@ e estão tratadas no relatório:
 ## Estrutura dos arquivos
 
 ```
-projeto/
+.
 ├── app.py                  Aplicação Streamlit
 ├── treinar_modelo.py       Treina o modelo final e gera modelo/modelo.pkl
 ├── wrangling.py            Limpeza determinística da base original
@@ -85,7 +85,7 @@ projeto/
 ├── modelo/
 │   ├── modelo.pkl          Pipeline serializado + metadados
 │   └── metricas.json       Métricas e intervalos, em formato legível
-└── figuras/                Figuras geradas pela EDA e pelo diagnóstico
+└── figuras/                Figuras geradas pela EDA e pelo diagnóstico Figuras geradas pela EDA e pelo diagnóstico
 ```
 
 ---
