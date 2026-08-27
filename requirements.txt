@@ -1,0 +1,16 @@
+# Versões fixadas deliberadamente.
+#
+# O pickle do scikit-learn não é compatível entre versões diferentes: um
+# modelo serializado com 1.8.0 pode falhar ao carregar em outra versão. Fixar
+# a versão garante que o ambiente de publicação reproduza o de treinamento.
+#
+# A aplicação também possui fallback: se o carregamento do pickle falhar,
+# ela retreina o modelo na inicialização.
+
+streamlit==1.62.0
+scikit-learn==1.8.0
+pandas==3.0.2
+numpy==2.4.4
+matplotlib==3.10.8
+scipy==1.17.1
+joblib==1.5.3
