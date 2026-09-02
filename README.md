@@ -250,15 +250,7 @@ métricas.
 14. **Independência dos erros não verificável.** Anúncios da mesma
     concessionária podem compartilhar política de preços. A coluna `vendedor`
     foi descartada da modelagem, o que impede avaliar esse efeito.
-
----
-
-## Uso de inteligência artificial
-
-Ferramentas de IA foram utilizadas como apoio no desenvolvimento. Todas as
-decisões de limpeza, modelagem e interpretação foram revisadas pelo grupo, e
-os integrantes são responsáveis por todo o conteúdo entregue.
-
+    
 ---
 
 ## Licença dos dados
